@@ -38,6 +38,12 @@ h6 {
 }
 
 b {
+  font-weight: 900;
+  font-size: larger;
+  margin: 0p, 8px;
+}
+.letConnect{
+  color: red;
   font-weight: 600;
 }
 
@@ -48,6 +54,9 @@ a {
 
 a:hover {
   color: var(--primary-color-dark);
+  transform: scale(1.5);
+  transition: 0.5s ease;
+
 }
 
 i {
@@ -122,6 +131,8 @@ i {
 .resume-button:hover {
   color: white;
   background-color: var(--primary-color-dark);
+  transform: scale(1.5);
+  transition: 0.5s ease;
 }
 
 @media screen and (min-width: 432px) {
